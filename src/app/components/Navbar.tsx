@@ -8,22 +8,13 @@ export default function Navbar() {
         Maria Youssef
       </h1>
       <div className="space-x-6">
-        <Link
-          href="/"
-          className="hover:text-yellow-400 hover:scale-110 transition-transform duration-200"
-        >
+        <Link href="/" className="nav-link">
           Home
         </Link>
-        <Link
-          href="/about"
-          className="hover:text-yellow-400 hover:scale-110 transition-transform duration-200"
-        >
+        <Link href="/about" className="nav-link">
           About Us
         </Link>
-        <Link
-          href="/contact"
-          className="hover:text-yellow-400 hover:scale-110 transition-transform duration-200"
-        >
+        <Link href="/contact" className="nav-link">
           Contact Us
         </Link>
       </div>
